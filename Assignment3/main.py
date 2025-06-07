@@ -14,6 +14,7 @@ trainer.train("chatterbot.corpus.english.greetings")
 # Train based on the english conversations corpus
 trainer.train("chatterbot.corpus.english.conversations")
 
+# start_chat will start a command line and initiate a chat conversation with the chatbot
 def start_chat():
     print("Hello! I am TerminalBot. Type 'exit' to end the chat.")
     while True:
